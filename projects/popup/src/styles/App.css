@@ -1,0 +1,96 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .button-primary {
+  width: 40%;
+  height: 54px;
+  background: #5F41E4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-top: 2.19rem;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease;
+}
+.container .button-primary:hover {
+  background: #4d2bc1;
+}
+.container .button-primary:focus {
+  outline: 3px solid #ffbb33;
+  background: #4d2bc1;
+}
+.container .button-primary:active {
+  transform: scale(0.98);
+  background: #4d2bc1;
+}
+.container .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+.container .modal .modal__content {
+  background-color: #fefefe;
+  margin: 5vh auto;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #888;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.container .modal .modal__content .modal__content__close {
+  width: 2rem;
+  height: 2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #888;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.container .modal .modal__content .modal__content__close:hover {
+  color: #fff;
+  background-color: red;
+  transform: scale(1.1);
+}
+.container .modal .modal__content .modal__content__close:focus {
+  outline: 3px solid #ffbb33;
+  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.8);
+}
+.container .modal .modal__content .modal__content__close:active {
+  transform: scale(0.95);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #242424;
+}/*# sourceMappingURL=App.css.map */
