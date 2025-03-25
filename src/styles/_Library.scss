@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+$head_font:"Playfair Display";
+$body_font:"Nunito";
+$heading_color: #111111;
+$para_color: #333333;
+$primary_color: #E65100;
+$primary_button: #D35400;
+$secondary_color: #2C3E50;
+$secondary_button: #1A446A;
+$button_radius: 4px;
+
+.button-small{
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 20px;
+}

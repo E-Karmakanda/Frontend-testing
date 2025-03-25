@@ -1,4 +1,9 @@
-@use 'Cards.scss';
+@import 'Cards';
+@import 'Library';
+@import 'Login';
+body{
+    font-family: $body_font;
+}
 
 * {
     margin: 0;
@@ -20,7 +25,7 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 16px; 
-        border: 1px dashed red;
+        // border: 1px dashed red;
         min-height: 80vh;
         margin: 1em 2em 0em 2em;
         .container__component{
